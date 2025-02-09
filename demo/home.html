@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Stylist | Degrees, Certificates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1250px;
+            margin: 50px auto;
+        }
+
+        .text-section {
+            max-width: 50%;
+        }
+
+        .text-section h1 {
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .text-section p {
+            margin: 20px 0;
+            font-size: 22px;
+            color: #333;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .join-btn {
+            background-color: #0056d2;
+            color: white;
+            border: none;
+        }
+
+        .business-btn {
+            border: 2px solid #0056d2;
+            color: #0056d2;
+            background: transparent;
+        }
+
+        .image-section {
+            position: relative;
+        }
+
+        .image-section img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        #for {
+            display: flex;
+            gap: 40px;
+            background-color: black;
+            padding: 10px 20px;
+        }
+
+        #for a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #for a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0056D2;
+            margin-right: 10px;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .search-bar input {
+            flex: 1;
+            border: none;
+            padding: 10px 12px;
+            outline: none;
+        }
+
+        .search-btn {
+            background: #0056D2;
+            color: white;
+            border: none;
+            padding: 10px 14px;
+            cursor: pointer;
+            border-radius: 0 20px 20px 0;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-right a {
+            color: black;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .join-btn {
+            background: none;
+            border: 1px solid #0056D2;
+            color: #0056D2;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="for">
+        <h4><a href="#">For Individuals</a></h4>
+        <h4><a href="#">For Businesses</a></h4>
+        <h4><a href="#">For Universities</a></h4>
+        <h4><a href="#">For Governments</a></h4>
+    </div>
+    <br>
+    <nav class="navbar">
+        <div class="nav-left">
+            <span class="logo">Coursera</span>
+            <div class="search-bar">
+                <input type="text" placeholder="What do you want to learn?">
+                <button class="search-btn">🔍</button>
+            </div>
+        </div>
+        <div class="nav-right">
+            <a href="#">Online Degrees</a>
+            <a href="#">Careers</a>
+            <a href="#">Log In</a>
+            <button class="join-btn">Join for Free</button>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="text-section">
+            <h1>Learn without </h1>
+            <h1>limits</h1>
+            <p>Start, switch, or advance your career with more than 10,000 courses, Professional Certificates, and degrees from world-class universities and companies.</p>
+            <div class="buttons">
+                <a href="#" class="join-btn">Join For Free</a>
+                <a href="#" class="business-btn">Try Coursera for Business</a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/5CFC8u8XiXcbSOlVv6JZQx/4e6f898f57f9d798437b3aa22026e30b/CourseraLearners_C_Composition_Hillary_copy__3_.png?auto=format%2Ccompress&dpr=1&w=459&h=497&q=40" alt="Coursera learners collage showing students and professionals">
+        </div>
+    </section>
+</body>
+</html>
